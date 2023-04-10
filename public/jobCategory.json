@@ -1,0 +1,28 @@
+[
+  {
+    "id": 2,
+    "name": "Data Science",
+    "image": "https://cdn-icons-png.flaticon.com/512/2103/2103569.png",
+    "numOfJobsAvailable": 150
+  },
+
+  {
+    "id": 6,
+    "name": "Cloud Computing",
+    "image": "https://cdn-icons-png.flaticon.com/512/2318/2318786.png",
+    "numOfJobsAvailable": 100
+  },
+  {
+    "id": 7,
+    "name": "Artificial Intelligence",
+    "image": "https://cdn-icons-png.flaticon.com/512/900/900961.png",
+    "numOfJobsAvailable": 80
+  },
+
+  {
+    "id": 9,
+    "name": "UI/UX Design",
+    "image": "https://cdn-icons-png.flaticon.com/512/9172/9172978.png",
+    "numOfJobsAvailable": 90
+  }
+]

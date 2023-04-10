@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="">
+    <div className="pt-14 bg-violet-50 ">
       <div className="md:container mx-auto hidden lg:flex justify-between items-center ">
         <Link to="/">
           <h1 className="text-5xl font-semibold">
