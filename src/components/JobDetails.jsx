@@ -1,6 +1,7 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../utilities/fakedb";
 
 const JobDetails = () => {
   const params = useParams();
@@ -11,6 +12,7 @@ const JobDetails = () => {
   // console.log(typeof jobId, desiredJob);
 
   const {
+    id,
     educationalRequirements,
     experiences,
     jobDescription,
@@ -20,6 +22,10 @@ const JobDetails = () => {
     salary,
   } = desiredJob;
   // console.log(desiredJob.contactInformation.email);
+
+  const handleToJobApply = () => {
+    addToDb(id);
+  };
   return (
     <div>
       <section className="py-32 text-center bg-violet-50 mb-10">
@@ -79,7 +85,12 @@ const JobDetails = () => {
               </div>
             </div>
             <div>
-              <button className=" btn-primary  my-5 w-full ">Apply Now</button>
+              <button
+                onClick={handleToJobApply}
+                className=" btn-primary  my-5 w-full "
+              >
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
