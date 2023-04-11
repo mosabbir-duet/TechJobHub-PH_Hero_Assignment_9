@@ -33,7 +33,7 @@ const JobDetails = () => {
             </div>
             <div className="job-details-info">
               <span>
-                <strong>Job Responsibility:</strong>
+                <strong>Job Responsibility: </strong>
               </span>
               <span>{jobResponsibilities}</span>
             </div>

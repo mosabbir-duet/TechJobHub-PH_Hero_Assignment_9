@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AssignmentMarkDashboard from "./components/AssignmentMarkDashboard";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
 import JobDetails from "./components/JobDetails";
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: "/featureJob/:jobId",
         element: <JobDetails></JobDetails>,
         loader: () => fetch("/featuresJob.json"),
+      },
+      {
+        path: "/statistics",
+        element: <AssignmentMarkDashboard></AssignmentMarkDashboard>,
       },
       {
         path: "/blog",
