@@ -1,5 +1,6 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Link } from "react-router-dom";
 const FeatureJob = ({ job }) => {
   const {
     companyLogo,
@@ -11,7 +12,7 @@ const FeatureJob = ({ job }) => {
     location,
     remoteOnsite,
   } = job;
-  console.log(fulltimePartTime);
+
   return (
     <div className="job-info">
       <img src={companyLogo} alt="" />
@@ -33,7 +34,9 @@ const FeatureJob = ({ job }) => {
           Salary:{salary}
         </span>
       </div>
-      <button className="btn-primary my-6">View Details</button>
+      <Link to={`/featureJob/${id}`}>
+        <button className="btn-primary my-6">View Details</button>
+      </Link>
     </div>
   );
 };

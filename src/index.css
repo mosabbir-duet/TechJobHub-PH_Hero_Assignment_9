@@ -38,6 +38,10 @@
   @apply text-violet-500 font-semibold text-xl border-2 px-5 py-2 border-violet-400 rounded-lg mr-5;
 }
 
+.job-details-info {
+  @apply text-xl mb-5 text-justify;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
