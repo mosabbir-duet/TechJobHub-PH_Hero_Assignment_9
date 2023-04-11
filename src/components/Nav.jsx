@@ -41,9 +41,7 @@ const Nav = () => {
             Blog
           </NavLink>
         </nav>
-        <button className="bg-gradient-to-br from-[#7E90FE] to-[#9873FF] px-7 py-4 rounded-lg text-white font-semibold text-xl">
-          Start Applying
-        </button>
+        <button className="btn-primary">Start Applying</button>
       </div>
       {/* Mobile Navbar Section */}
       <div className="lg:hidden ">

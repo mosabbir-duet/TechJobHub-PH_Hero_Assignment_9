@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google",
+    "remoteOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimePartTime": "Full Time",
+    "salary": "120k - 150k",
+    "jobDescription": "We are looking for a talented Software Engineer to join our team and help us build high-quality, scalable software solutions.",
+    "jobResponsibilities": "Develop, test, and deploy software applications\nCollaborate with cross-functional teams to identify and prioritize features\nDesign and implement scalable, maintainable software architectures\nConduct code reviews and provide constructive feedback to team members",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "3+ years of professional software development experience",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "contact@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png",
+    "jobTitle": "Data Scientist",
+    "companyName": "Netflix",
+    "remoteOnsite": "Onsite",
+    "location": "Los Gatos, CA",
+    "fulltimePartTime": "Full Time",
+    "salary": "150k - 200k",
+    "jobDescription": "We are seeking a talented Data Scientist to join our team and help us build cutting-edge data products.",
+    "jobResponsibilities": "Conduct research and develop algorithms for large-scale data analysis\nDesign and implement data pipelines and data visualization tools\nCollaborate with cross-functional teams to identify and prioritize features\nDeploy and maintain data models in production",
+    "educationalRequirements": "Master's or PhD in Computer Science, Statistics, Mathematics, or related field",
+    "experiences": "5+ years of experience in data science, machine learning, or related field",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "contact@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-apple-mac-vector-logo-download-23.png",
+    "jobTitle": "UX Designer",
+    "companyName": "Apple",
+    "remoteOnsite": "Onsite",
+    "location": "Cupertino, CA",
+    "fulltimePartTime": "Part Time",
+    "salary": "120k - 150k",
+    "jobDescription": "We are seeking a talented UX Designer to join our team and help us design world-class user experiences.",
+    "jobResponsibilities": "Collaborate with product managers, engineers, and other designers to define user experiences\nDesign wireframes, prototypes, and high-fidelity visual designs\nConduct user research and usability testing to validate designs\nProvide design guidance and feedback to other designers",
+    "educationalRequirements": "Bachelor's or Master's degree in Design or related field",
+    "experiences": "3+ years of professional UX design experience",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "contact@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "remoteOnsite": "Onsite",
+    "companyLogo": "https://www.freepnglogos.com/uploads/microsoft-logo-4.png",
+    "companyName": "Microsoft",
+    "jobTitle": "Software Engineer",
+    "location": "Seattle, WA",
+    "fulltimePartTime": "Full Time",
+    "salary": "$100k - $150k",
+    "jobDescription": "We are looking for a software engineer with experience in building scalable applications using C# and .NET Core.",
+    "jobResponsibilities": "Design and develop software applications that meet business requirements, write clean, maintainable code, and troubleshoot and debug applications.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+    "experiences": "5+ years of experience in software development",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "john.doe@microsoft.com"
+    }
+  },
+  {
+    "id": 5,
+    "remoteOnsite": "Remote",
+    "companyLogo": "https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-13.png",
+    "companyName": "Facebook",
+    "jobTitle": "Product Designer",
+    "location": "Menlo Park, CA",
+    "fulltimePartTime": "Part Time",
+    "salary": "$120k - $180k",
+    "jobDescription": "We are seeking a product designer to help us design and build world-class social media products.",
+    "jobResponsibilities": "Design user flows, wireframes, and high-fidelity mockups, collaborate with cross-functional teams, and conduct user research and testing.",
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or a related field",
+    "experiences": "5+ years of experience in product design",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "jane.doe@facebook.com"
+    }
+  },
+  {
+    "id": 6,
+    "remoteOnsite": "Onsite",
+    "companyLogo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/woodland-gardening-amazon-png-logo-vector-8.png",
+    "companyName": "Amazon",
+    "jobTitle": "Senior Product Manager",
+    "location": "Seattle, WA",
+    "fulltimePartTime": "Full Time",
+    "salary": "$150k - $250k",
+    "jobDescription": "We are looking for a senior product manager to lead the development of our e-commerce platform.",
+    "jobResponsibilities": "Define product vision and strategy, work with cross-functional teams to launch new products, and gather and analyze data to inform product decisions.",
+    "educationalRequirements": "Bachelor's or Master's degree in Business, Computer Science, or related field",
+    "experiences": "8+ years of experience in product management",
+    "contactInformation": {
+      "phone": "123-456-7890",
+      "email": "joe.smith@amazon.com"
+    }
+  }
+]

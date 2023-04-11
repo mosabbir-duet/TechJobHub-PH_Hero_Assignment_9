@@ -8,6 +8,9 @@
   font-weight: 600;
   color: #757575;
 }
+.btn-primary {
+  @apply bg-gradient-to-br from-[#7E90FE] to-[#9873FF] px-7 py-4 rounded-lg text-white font-semibold text-xl;
+}
 
 .active {
   @apply font-medium tracking-wide text-violet-700 transition-colors duration-200 hover:text-violet-400;
@@ -19,6 +22,20 @@
 .job-category img {
   height: 40px;
   width: 40px;
+}
+
+.job-info {
+  padding: 40px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+}
+.job-info img {
+  height: 120px;
+  width: 140px;
+}
+
+.btn-job-type {
+  @apply text-violet-500 font-semibold text-xl border-2 px-5 py-2 border-violet-400 rounded-lg mr-5;
 }
 
 /* :root {
