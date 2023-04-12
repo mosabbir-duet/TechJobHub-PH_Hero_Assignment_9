@@ -1,7 +1,10 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
-import React from "react";
+import React, { useEffect } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToDb } from "../utilities/fakedb";
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const JobDetails = () => {
   const params = useParams();
   const { jobId } = params;
@@ -22,6 +25,10 @@ const JobDetails = () => {
   } = desiredJob;
   // console.log(desiredJob.contactInformation.email);
 
+  //  Use this userEffect for prevent to scroll Restoration problem. Without using this the job details page showed content from bottom
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleToJobApply = () => {
     addToDb(id);
   };
@@ -90,6 +97,7 @@ const JobDetails = () => {
               >
                 Apply Now
               </button>
+              <ToastContainer />
             </div>
           </div>
         </div>

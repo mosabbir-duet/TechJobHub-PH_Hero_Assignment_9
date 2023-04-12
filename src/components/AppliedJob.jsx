@@ -13,6 +13,8 @@ const AppliedJob = ({ job }) => {
     remoteOnsite,
   } = job;
   return (
+    // this component show the applied job information in applied jobs link
+
     <div>
       <div className="job-info lg:flex mb-5 items-center p-4 md:p-10">
         <div className="md:mr-10 bg-violet-50 p-4 md:p-8 rounded-lg inline-block md:block">

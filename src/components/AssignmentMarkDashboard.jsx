@@ -8,6 +8,8 @@ import {
   YAxis,
 } from "recharts";
 
+// Here the array of object of Assignment mark which store the assignment information
+
 const AssignmentMarkDashboard = () => {
   const assignmentMark = [
     { id: 1, name: "Assignment 1", Mark: 60 },
@@ -19,12 +21,18 @@ const AssignmentMarkDashboard = () => {
     { id: 7, name: "Assignment 7", Mark: 60 },
     { id: 8, name: "Assignment 8", Mark: 60 },
   ];
+
+  // find average marks from 9 assignment
+
   let totalMark = 0;
   assignmentMark.forEach((assignment) => {
     totalMark += assignment.Mark;
   });
   const averageMark = totalMark / assignmentMark.length;
+
   return (
+    // header and assignment average marks area
+
     <div className="flex-col justify-center">
       <div className="py-32 text-center bg-violet-50 mb-10">
         <h1 className="text-3xl font-semibold">Assignment Analytics</h1>
@@ -33,6 +41,9 @@ const AssignmentMarkDashboard = () => {
           {averageMark}react-accordion-menu
         </p>
       </div>
+
+      {/* this section for showing Areachart for 9 assignment  */}
+
       <div className="flex justify-center">
         <AreaChart
           width={960}

@@ -1,20 +1,14 @@
-# TechJobHub Repositor
+# TechJobHub Repository
 
-## This is a technology related job site. People can find job, apply and also read blog.
-
-&nbsp;
+This is a technology related job site. People can find job, apply and also read blog.
 
 # Live Link
 
-## Hosted in Netlify -> [TechJobHub](https://symphonious-semifreddo-1865c8.netlify.app/)
-
-&nbsp;
+Hosted in Netlify -> [TechJobHub](https://symphonious-semifreddo-1865c8.netlify.app/)
 
 # React Router Dom v6.4
 
-## Documentation Link -> [React Router Link](https://reactrouter.com/en/main/start/overview)
-
-&nbsp;
+Documentation Link -> [React Router Link](https://reactrouter.com/en/main/start/overview)
 
 # Features Of TechJobHub
 

@@ -1,6 +1,7 @@
 // use local storage to manage cart data
 
-import toast from 'react-hot-toast';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const addToDb = id => {
     let appliedJobCart = getAppliedJob();
     // add quantity
@@ -9,7 +10,8 @@ const addToDb = id => {
         appliedJobCart[id] = 1;
     }
     else {
-        toast('Here is your toast.')
+        toast("Already applied this job!!!")
+
     }
     localStorage.setItem('appliedJob-cart', JSON.stringify(appliedJobCart));
 }
