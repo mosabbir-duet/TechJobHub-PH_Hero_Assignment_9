@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const Blog = () => {
   return (
-    <div className="px-4  ">
+    <div>
       <Header headerTitle="Blog Page"></Header>
       <div className="container mx-auto grid md:grid-cols-2 gap-12 my-10">
         <div className="text-2xl text-justify ">

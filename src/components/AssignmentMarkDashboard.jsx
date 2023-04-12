@@ -38,7 +38,7 @@ const AssignmentMarkDashboard = () => {
         <h1 className="text-3xl font-semibold">Assignment Analytics</h1>
         <p className="text-2xl text-violet-500 my-2">
           <strong>Average Mark: </strong>
-          {averageMark}react-accordion-menu
+          {averageMark}
         </p>
       </div>
 
