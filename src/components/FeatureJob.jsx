@@ -14,7 +14,7 @@ const FeatureJob = ({ job }) => {
   } = job;
 
   return (
-    <div className="job-info">
+    <div className="job-info p-10">
       <img src={companyLogo} alt="" />
       <h1 className=" text-2xl font-medium">{jobTitle}</h1>
       <p className=" text-lg">{companyName}</p>
