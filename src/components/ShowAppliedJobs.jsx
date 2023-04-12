@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getAppliedJob } from "../utilities/fakedb";
 import AppliedJob from "./AppliedJob";
+import Header from "./Header";
 
 const ShowAppliedJobs = () => {
   const featuresJobs = useLoaderData();
@@ -51,9 +52,7 @@ const ShowAppliedJobs = () => {
 
   return (
     <div>
-      <section className="py-32 text-center bg-violet-50 mb-10">
-        <h1 className="text-3xl font-semibold">Applied Jobs</h1>
-      </section>
+      <Header headerTitle="Applied Jobs"></Header>
 
       {/* used condition rendering for filter button remote and onsite. If haven't applied any job then don't show remote and onsite filter button and on the other hand if have any applied jobs then show both the button  */}
 
