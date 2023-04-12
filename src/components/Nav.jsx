@@ -64,11 +64,6 @@ const Nav = () => {
               <Bars3BottomRightIcon className="w-5 text-gray-600" />
             </button>
           </div>
-          <div>
-            <button className="bg-gradient-to-br from-[#7E90FE] to-[#9873FF] px-5 py-2 rounded-lg text-white font-semibold text-xl">
-              Start Applying
-            </button>
-          </div>
         </div>
         {isMenuOpen && (
           <div className="absolute top-0 left-0 w-full z-10">

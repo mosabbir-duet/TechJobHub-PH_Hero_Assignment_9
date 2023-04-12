@@ -45,15 +45,15 @@ const AssignmentMarkDashboard = () => {
             bottom: 0,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="5 5" />
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
           <Area
             type="monotone"
             dataKey="Mark"
-            stroke="#8884d8"
-            fill="#8884d8"
+            stroke="#03964f"
+            fill="#7884d8"
           />
         </AreaChart>
       </div>
