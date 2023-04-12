@@ -2,7 +2,6 @@ import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToDb } from "../utilities/fakedb";
-
 const JobDetails = () => {
   const params = useParams();
   const { jobId } = params;

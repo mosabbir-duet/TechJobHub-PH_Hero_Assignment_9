@@ -30,7 +30,7 @@ const AssignmentMarkDashboard = () => {
         <h1 className="text-3xl font-semibold">Assignment Analytics</h1>
         <p className="text-2xl text-violet-500 my-2">
           <strong>Average Mark: </strong>
-          {averageMark}
+          {averageMark}react-accordion-menu
         </p>
       </div>
       <div className="flex justify-center">
