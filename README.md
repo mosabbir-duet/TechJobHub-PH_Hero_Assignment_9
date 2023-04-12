@@ -25,6 +25,10 @@ Documentation Link -> [React Router Link](https://reactrouter.com/en/main/start/
 - Tailwind
 - CSS
 
+# React Toastify
+
+Documentation Link -> [React Toastify](https://www.npmjs.com/package/react-toastify)
+
 # Resources & Credits
 
 - Icon -> [Hero Icon](https://heroicons.com/)
